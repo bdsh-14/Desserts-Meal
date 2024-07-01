@@ -10,7 +10,6 @@
 		270CF4262C3370CC00EE3A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CF4252C3370CC00EE3A57 /* AppDelegate.swift */; };
 		270CF4282C3370CC00EE3A57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CF4272C3370CC00EE3A57 /* SceneDelegate.swift */; };
 		270CF42A2C3370CC00EE3A57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CF4292C3370CC00EE3A57 /* ViewController.swift */; };
-		270CF42D2C3370CC00EE3A57 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 270CF42C2C3370CC00EE3A57 /* Base */; };
 		270CF42F2C3370CD00EE3A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270CF42E2C3370CD00EE3A57 /* Assets.xcassets */; };
 		270CF4322C3370CD00EE3A57 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 270CF4312C3370CD00EE3A57 /* Base */; };
 		270CF43D2C3370CD00EE3A57 /* Desserts_MealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CF43C2C3370CD00EE3A57 /* Desserts_MealTests.swift */; };
@@ -40,7 +39,6 @@
 		270CF4252C3370CC00EE3A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		270CF4272C3370CC00EE3A57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		270CF4292C3370CC00EE3A57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		270CF42C2C3370CC00EE3A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		270CF42E2C3370CD00EE3A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		270CF4312C3370CD00EE3A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		270CF4332C3370CD00EE3A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				270CF4252C3370CC00EE3A57 /* AppDelegate.swift */,
 				270CF4272C3370CC00EE3A57 /* SceneDelegate.swift */,
 				270CF4292C3370CC00EE3A57 /* ViewController.swift */,
-				270CF42B2C3370CC00EE3A57 /* Main.storyboard */,
 				270CF42E2C3370CD00EE3A57 /* Assets.xcassets */,
 				270CF4302C3370CD00EE3A57 /* LaunchScreen.storyboard */,
 				270CF4332C3370CD00EE3A57 /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				270CF42F2C3370CD00EE3A57 /* Assets.xcassets in Resources */,
 				270CF4322C3370CD00EE3A57 /* Base in Resources */,
-				270CF42D2C3370CC00EE3A57 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		270CF42B2C3370CC00EE3A57 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				270CF42C2C3370CC00EE3A57 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		270CF4302C3370CD00EE3A57 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,12 +430,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WVRH7U68KM;
+				DEVELOPMENT_TEAM = GVKK7BHHAM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Desserts-Meal/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,12 +461,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WVRH7U68KM;
+				DEVELOPMENT_TEAM = GVKK7BHHAM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Desserts-Meal/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -512,6 +498,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.Desserts-MealTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -532,6 +522,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.Desserts-MealTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -550,6 +544,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.Desserts-MealUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -568,6 +566,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.Desserts-MealUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
